@@ -13,14 +13,15 @@ h2 {
 
 h3 {
   font-size: 1.2rem;
+  margin: 15px 0 10px 0;
 }
 
 p {
-  margin: 5px 0;
+  margin: 0 0 10px 0;
 }
 
 img {
-  height: 200px;
+  height: 175px;
 }
 
 section .row:nth-child(1n+2) {
@@ -42,7 +43,7 @@ section .row:nth-child(1n+2) {
 .why img {
   background: #428bca;
   border-radius: 50%;
-  padding: 30px;
+  padding: 25px;
 }
 
 .why .content-box {
@@ -52,22 +53,21 @@ section .row:nth-child(1n+2) {
 /* smartphone */
 @media all and (max-width:767px) {
   img {
-    height: 150px;
+    height: 125px;
   }
 
-  .where .row .content-box:last-child,
-  .how .row .content-box:nth-child(1n+2) {
-    margin-top: 30px;
+  .margin-xs {
+    margin: 30px 0 0 0;
   }
 }
 
 /* tablet */
 @media all and (min-width:768px) and (max-width:991px) {
   img {
-    height: 175px;
+    height: 150px;
   }
 
-  .how .row .content-box:last-child {
-    margin-top: 30px;
+  .margin-md {
+    margin: 30px 0 0 0;
   }
 }
